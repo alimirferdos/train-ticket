@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM openjdk:8
 MAINTAINER dingding <17212010004@fudan.edu.cn>
 
 ADD ./target/ts-food-map-service-1.0.jar /app/
