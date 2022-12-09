@@ -548,7 +548,8 @@ services:
       - my-network
 
   ts-avatar-service:
-    image: ${NAMESPACE}/ts-avatar-service:${TAG}
+    build: ts-avatar-service
+    image: ${IMG_REPO}/ts-avatar-service:${IMG_TAG}
     restart: always
     ports:
       - 17001:17001
