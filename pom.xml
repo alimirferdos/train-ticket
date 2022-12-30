@@ -15,7 +15,9 @@
     </parent>
 
     <modules>
+        <module>ts-login-service</module>
         <module>ts-common</module>
+		<module>ts-register-service</module>
         <module>ts-verification-code-service</module>
         <module>ts-contacts-service</module>
         <module>ts-order-service</module>
